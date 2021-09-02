@@ -1,0 +1,10 @@
+Briefly explain with an example what's the difference between
+ import Something from 'package' VS import {Something} from 'package
+
+  - import Something from 'package' 
+    - it only works if package contains a default export .
+    -it doesn't matter name (something), can use any name .
+
+- import {Something} from 'package
+  -  it only works if package contains {something}a default export.
+  - it does matter name (something) because you’re importing a specific thing.
